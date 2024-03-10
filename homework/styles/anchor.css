@@ -1,0 +1,33 @@
+.outside:link{
+    text-decoration: none;
+}
+
+.outside:visited{
+    color: green;
+}
+
+.outside:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+.outside:active{
+    color: yellow;
+}
+
+/* a:link{
+    text-decoration: none;
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+a:active{
+    color: yellow;
+} */

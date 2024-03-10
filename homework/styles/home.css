@@ -1,0 +1,237 @@
+body{
+margin: 0;
+}
+/* 設定標圖線條 */
+.headerboader {
+  margin-top: 25px;
+  height: 50px;
+  border-bottom: 2px solid black;
+  border-radius: 20px;
+  padding-bottom: 20px;
+}
+
+/* 設定彈性盒子 */
+.box {
+  width: 600px;
+
+  margin: auto;
+}
+.flex {
+  display: flex;
+}
+
+.navbar {
+  border: 2px solid lightsalmon;
+  list-style-type: none;
+  display: inline-flex;
+}
+.item {
+  width: 120px;
+
+  border-right: 1px solid lightgray;
+  font-size: 25px;
+  text-align: center;
+  padding: 5px;
+  justify-content: space-around;
+}
+.item2 {
+  width: 120px;
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  font-size: 25px;
+  text-align: center;
+  padding: 5px;
+  justify-content: space-around;
+}
+.item3 {
+  width: 120px;
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  font-size: 25px;
+  text-align: center;
+  padding: 5px;
+  justify-content: space-around;
+}
+.item4 {
+  width: 120px;
+  border-left: 1px solid lightgray;
+
+  font-size: 25px;
+  text-align: center;
+  padding: 5px;
+  justify-content: space-around;
+}
+/* 設定頁首圖案 */
+.leftimg {
+  float: left;
+  position: absolute;
+  left: 200px;
+}
+
+/* 設定頁首註冊登陸文字 */
+.headerp{
+  
+  position: absolute;
+  right: 100px;
+  top: 40px;
+  
+}
+.rightimg{
+  position: absolute;
+  right: 100px;
+  top: 40px;
+}
+
+
+/* 設定超連結樣式 */
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  color: gray;
+}
+a:hover {
+  
+  color: red;
+}
+a:active {
+  color: none;
+}
+/* 音樂作品文字 */
+.musicdiv{
+  width: 1200px;
+  height: 200px;
+  margin:auto;
+  background-image: url(../images/vinyl.jpg);
+}
+.musicimg{
+  margin: 0;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+
+
+
+/* 專輯分類 */
+.asidecss
+{
+  float: left;
+  width: 20%;
+  height: 100%;
+  margin: 0;
+  background-color: white;
+  text-align: left;
+  
+}
+button
+{
+  color: white;
+  font-size: 25px;
+  width: 100%;
+  height: 40px;
+  border: 0 white;
+  border-radius: 10px ;
+  margin-top: 0;
+  margin-bottom: 20px;
+  background-color: lightgray;
+}
+button:hover
+{
+background-color:rgb(248, 248, 103);
+}
+/* 主要頁面 */
+.maincss
+{
+  float: right;
+  width: 75%;
+  height: 100%;
+   margin: 0;
+   background-color: antiquewhite;
+   text-align: left;
+   
+}
+
+.divmain{
+  width: auto;
+  height: 600px;
+  padding: 0 16px;
+margin-left: 409px;
+margin-right: 500px;
+}
+.boderbottom
+{
+  border-bottom: 1px solid black;
+}
+/* 專輯資訊 */
+.div2{
+  float: left;
+  width: 30%;
+}
+.section1
+{
+float: left;
+margin-top: 10px;
+width: 100%;
+height: 200px;
+}
+.section2
+{
+  float: left;
+  width: 20%;
+  height: 200px;
+}
+.section3
+{
+  float: right;
+  width: 70%;
+  height: 500px;
+}
+.pol
+{
+float: left;
+margin: 0;
+width: 35%;
+
+}
+ol
+{
+  
+margin: 0;
+  width: 63%;
+  float: right;
+  padding: 0px;
+  
+}
+li
+{
+  width: 100%;
+}
+.margin0
+{
+  margin: 0;
+}
+
+/* 圖片 */
+
+.divimg{
+  margin: 0px 500px 0px 500px;
+}
+.img1{
+width: 200px;
+height: 50px;
+
+}
+.img2
+{
+  width: 200px;
+height: 50px;
+ margin-left: 500px;
+}
+
+/* 設定頁尾 */
+footer {
+  background-color: rgb(248, 248, 103);
+  text-align: right;
+  margin-top:310px ;
+}
